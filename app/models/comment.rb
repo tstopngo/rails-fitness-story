@@ -1,4 +1,4 @@
 class Comment < ApplicationRecord
   belongs_to :log
-  validates :text, prescence: true
+  validates :text, presence: true
 end

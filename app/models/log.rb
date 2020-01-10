@@ -1,5 +1,5 @@
 class Log < ApplicationRecord
-  has many :comments
-  validates :workouts, prescence: true
-  validates :time, prescence :true
+  has_many :comments
+  validates :workouts, presence: true
+  validates :time, presence: true
 end

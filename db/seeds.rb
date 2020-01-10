@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+   logs = Log.create(workouts: 'Swimming, Running, SitUps' ,  time: 160)
+   comment = Comment.create(text: 'Wow, today\'s workout set was hard.', log_id: 1)
